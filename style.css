@@ -18,7 +18,6 @@ body {
   --elements-color: hsl(209, 23%, 22%);
 } */
 
-
 .header-content {
   padding: 15px;
   background-color: #fff;
@@ -27,14 +26,12 @@ body {
   position: sticky;
   top: 0;
   z-index: 9999;
-  
 }
 
 .header-content h2 {
-  /* font-size: 40px; */
   font-weight: 800;
-  /* font-family: serif; */
 }
+
 .header-content button {
   font-size: 15px;
   margin-top: 10px;
@@ -84,7 +81,6 @@ body {
   /* box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.2); */
 }
 
-
 .card-text h3 {
   color: black;
   font-family: sans-serif;
@@ -102,10 +98,7 @@ body {
 
 /* card end */
 
-
-/* detail card start */
-
-
+/*  card detail start */
 
 .hero-detail img {
   width: 100%;
@@ -137,33 +130,27 @@ body {
   margin-bottom: 25px;
 }
 
-
 .border {
-    margin-top: 48px;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 8px;
+  margin-top: 48px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .border a {
-    padding: 4px 16px;
-    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    font-size: 14px;
+  padding: 4px 16px;
+  box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 14px;
 }
 
-
-
-
-
-
-/* detail card end */
+/*  card detail end */
 
 @media (max-width: 667px) {
   /* header start */
 
-  .header-content  {
+  .header-content {
     padding-top: 6px;
     padding-bottom: 6px;
     position: sticky;
@@ -218,30 +205,27 @@ body {
 
   /* hero-card end */
 
+  /* card detail start*/
 
-     /* card detail start*/
-  
-     .hero-detail-col {
-      text-align: justify;
-      padding-left: 17px;
-    }
-  
-    
-    .hero-detail-card {
-      padding: 30px;
-      box-shadow: none;
-      margin-top: 0px;
-    }
-  
-    .back-btn {
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
+  .hero-detail-col {
+    text-align: justify;
+    padding-left: 17px;
+  }
 
-    .border {
-        margin-top: 20px;
-;
-    }
-  
-    /* card detail end */
+  .hero-detail-card {
+    padding: 30px;
+    box-shadow: none;
+    margin-top: 0px;
+  }
+
+  .back-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .border {
+    margin-top: 20px;
+  }
+
+  /* card detail end */
 }
